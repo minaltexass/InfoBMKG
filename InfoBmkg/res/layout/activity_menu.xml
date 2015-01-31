@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3399ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.minall.infobmkg.MenuActivity" >
+
+    <Button
+        android:id="@+id/btn_gempa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030303"
+        android:background="#fdfdfd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="Gempa Terkini" />
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030303"
+        android:background="#fdfdfd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_gempa"
+        android:layout_marginTop="10dp"
+        android:text="History Gempa" />
+
+    <Button
+        android:id="@+id/btn_ramalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030303"
+        android:background="#fdfdfd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_history"
+        android:layout_marginTop="10dp"
+        android:text="Perkiraan Cuaca" />
+    
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030303"
+        android:background="#fdfdfd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn_ramalan"
+        android:layout_marginTop="10dp"
+        android:text="About Me" />
+    
+</RelativeLayout>

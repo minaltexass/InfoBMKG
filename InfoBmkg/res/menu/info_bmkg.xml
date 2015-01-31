@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.minall.infobmkg.InfoBmkgActivity" >
+
+    <item
+        android:id="@+id/gempaterkini"
+        android:orderInCategory="100"
+        android:title="@string/gempaterkini"
+        android:icon="@drawable/oke"
+        app:showAsAction="always"/>
+     <item
+        android:id="@+id/ramalan_cuaca"
+        android:orderInCategory="100"
+        android:title="@string/ramalan_cuaca"
+        android:icon="@drawable/gagal"
+        app:showAsAction="always"/>
+</menu>

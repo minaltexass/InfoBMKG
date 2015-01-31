@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Info BMKG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lokasiku">Lokasi Saya</string>
+    <string name="title_activity_no_internet_access">No Inteenet Access</string>
+    <string name="gempaterkini">Gempa Terkini</string>
+    <string name="ramalan_cuaca">Ramalan Cuaca</string>
+    <string name="title_activity_menu">Info BMKG</string>
+    <string name="title_activity_gempa_terkini">Gempa Terkini</string>
+    <string name="title_activity_perkiraan_cuaca">Perkiraan Cuaca</string>
+    <string name="title_activity_about">About Me</string>
+    <string name="minal">Nama : Minal Juadli \nNIM: 8020110229 \nProdi: Teknik Informatika \nAngkatan : 2011</string>
+    <string name="ardy">Nama : Ardiansyah \nNIM: 8020110243 \nProdi: Teknik Informatika \nAngkatan : 2011</string>
+    <string name="title_activity_peta_gempa_terkini">Peta Gempa Terkini</string>
+
+</resources>

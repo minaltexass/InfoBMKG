@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#3399ff"
+    android:orientation="horizontal">
+            
+        <TextView
+            android:id="@+id/kota"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="2dip"
+            android:text="Kota"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/cuaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kota"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Cuaca "
+            android:textColor="#fdfdfd"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/suhu_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cuaca"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Suhu Min"
+            android:textColor="#fdfdfd"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <!--  
+        <ImageView
+            android:id="@+id/img_cuaca"
+            android:layout_width="100dip"
+            android:layout_height="94dip"
+            android:layout_below="@id/tanggal2"
+            android:layout_marginLeft="130dp"
+            android:layout_toRightOf="@id/suhu_min"
+            android:src="@drawable/cuaca" />
+        -->
+        
+        <TextView
+            android:id="@+id/suhu_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/suhu_min"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Suhu Max"
+            android:textColor="#fdfdfd"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <TextView
+            android:id="@+id/kelembapan_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/suhu_max"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Kelembapan Min"
+            android:textColor="#fdfdfd"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <TextView
+            android:id="@+id/kelembapan_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kelembapan_min"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Kelembapan Max"
+            android:textColor="#fdfdfd"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+		<!-- 
+		
+		<ImageView
+            android:id="@+id/img_cuaca"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/kota" />
+		
+		 -->
+
+</RelativeLayout>

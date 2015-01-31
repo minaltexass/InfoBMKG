@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal">  
+   
+
+        <TextView
+            android:id="@+id/tanggal1"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:text="Tanggal"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+            
+        <TextView
+            android:id="@+id/jam1"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/tanggal1"
+            android:paddingBottom="2dip"
+            android:text="Jam"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/lintang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tanggal1"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Lintang : "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/bujur1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lintang1"
+            android:layout_marginLeft="13dp"
+            android:gravity="left"
+            android:text="Bujur: "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <!-- 
+        <ImageView 
+         android:id="@+id/img_gempa1"
+	     android:layout_width="100dip"
+	     android:layout_height="100dip"
+	     android:layout_below="@id/bujur1"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="20dp" 
+         android:background="@drawable/eqmap"/> 
+         -->
+        
+		
+		<fragment
+	     android:id="@+id/img_gempa1"
+	     android:name="com.google.android.gms.maps.MapFragment"
+	     android:layout_width="100dip"
+	     android:layout_height="100dip"
+	     android:layout_below="@id/bujur1"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="20dp"/>
+
+        
+
+        <TextView
+            android:id="@+id/kekuatan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bujur1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_gempa1"
+            android:gravity="left"
+            android:text="Kekuatan"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <TextView
+            android:id="@+id/kedalaman1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kekuatan1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_gempa1"
+            android:gravity="left"
+            android:text="Kedalaman"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <TextView
+            android:id="@+id/wilayah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kedalaman1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_gempa1"
+            android:gravity="left"
+            android:text="Wilayah1"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+        <TextView
+            android:id="@+id/wilayah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wilayah1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_gempa1"
+            android:gravity="left"
+            android:text="Wilayah2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="monospace" >
+
+        </TextView>
+        
+         <TextView
+             android:id="@+id/wilayah3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/img_gempa1"
+             android:layout_marginBottom="5dp"
+             android:layout_marginLeft="13dp"
+             android:layout_marginTop="30dp"
+             android:gravity="left"
+             android:text="Wilayah3"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:typeface="monospace" >
+
+        </TextView>
+        
+          <TextView
+              android:id="@+id/wilayah4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/wilayah3"
+              android:layout_marginBottom="5dp"
+              android:layout_marginLeft="13dp"
+              android:gravity="left"
+              android:text="Wilayah4"
+              android:textColor="#000000"
+              android:textStyle="bold"
+              android:typeface="monospace" >
+
+        </TextView>
+        
+           <TextView
+               android:id="@+id/wilayah5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/wilayah4"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="13dp"
+               android:gravity="left"
+               android:text="Wilayah5"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               android:typeface="monospace" >
+
+        </TextView>
+        
+            <TextView
+                android:id="@+id/potensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wilayah5"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="13dp"
+                android:gravity="left"
+                android:text="Potensi :"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#d82f3b"
+                android:textStyle="bold"
+                android:typeface="monospace" >
+
+        </TextView>
+
+</RelativeLayout>

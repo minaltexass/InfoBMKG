@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3399ff">
+
+        <ImageView
+            android:id="@+id/img_gempa"
+            android:layout_width="262dp"
+            android:layout_height="262dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/smile" />
+
+        <Button
+            android:id="@+id/gagal"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="#030303"
+            android:layout_below="@+id/img_gempa"
+            android:layout_centerHorizontal="true"
+            android:background="#fdfdfd"
+            android:text="Coba Lagi"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+</RelativeLayout>
